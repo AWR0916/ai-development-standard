@@ -38,13 +38,14 @@
 - 品質、安全性、セキュリティ、運用への影響
 - 代替策と確認方法
 - 承認者
-- 有効期限と再評価日
+- 有効期限
+- 再評価日
 
 期限切れの例外は自動更新しません。
 
 ## 文書検査の導入
 
-対象リポジトリに次のワークフローを追加します。`v1.0.0` は採用する標準バージョンへ置き換えます。
+対象リポジトリに次のワークフローを追加します。`v1.0.1` は採用する標準バージョンへ置き換えます。
 
 ```yaml
 name: Documentation check
@@ -60,7 +61,7 @@ permissions:
 
 jobs:
   documentation:
-    uses: AWR0916/ai-development-standard/.github/workflows/reusable-documentation-check.yml@v1.0.0
+    uses: AWR0916/ai-development-standard/.github/workflows/reusable-documentation-check.yml@v1.0.1
 ```
 
 再利用可能ワークフローを使うには、呼出元リポジトリからAI開発標準リポジトリを参照できる必要があります。
