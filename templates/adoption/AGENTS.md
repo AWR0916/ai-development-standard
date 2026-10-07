@@ -2,9 +2,9 @@
 
 ## AI開発標準
 
-本リポジトリの開発は、AI開発標準 `v1.0.1` を基準とします。
+本リポジトリの開発は、AI開発標準 `v1.1.0` を基準とします。
 
-[AI開発標準 v1.0.1](https://github.com/AWR0916/ai-development-standard/tree/v1.0.1)
+[AI開発標準 v1.1.0](https://github.com/AWR0916/ai-development-standard/tree/v1.1.0)
 
 プロジェクト固有規則とAI開発標準が同じ対象に適用される場合は、原則として厳しい規則を適用します。
 
