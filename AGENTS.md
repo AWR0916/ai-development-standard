@@ -15,6 +15,6 @@ This repository contains organization-independent AI development standards, temp
 
 - Update related templates and checklists when a standard changes.
 - Keep `VERSION`, `CHANGELOG.md`, and release tags consistent with the versioning policy.
-- Record exceptions with reason, impact, mitigation, approver, and expiry date.
+- Record exceptions with the target rule, reason, impact, mitigation and how it is verified, approver, expiry date, and re-evaluation date.
 - Run documentation checks before committing.
 - Do not configure a remote or publish changes without explicit authorization.

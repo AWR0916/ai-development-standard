@@ -1,4 +1,6 @@
 config:
   MD013: false
+  # 日本語の全角文字では表の列幅を揃えられないため無効化する。
+  MD060: false
   MD024:
     siblings_only: true

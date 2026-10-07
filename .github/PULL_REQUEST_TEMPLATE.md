@@ -14,6 +14,6 @@
 
 ## チェック
 
-- [ ] [Pull Request チェックリスト](../checklists/pull-request-checklist.md)を確認した
+- [ ] Pull Request チェックリスト（`checklists/pull-request-checklist.md`）を確認した
 - [ ] 関連する標準、テンプレート、チェックリストを更新した
-- [ ] 例外がある場合、理由・影響・代替策・承認者・期限を記載した
+- [ ] 例外がある場合、対象規則・理由・影響・代替策と確認方法・承認者・有効期限・再評価日を記載した
