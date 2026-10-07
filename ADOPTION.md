@@ -49,7 +49,7 @@
 
 ## 文書検査の導入
 
-対象リポジトリに次のワークフローを追加します。`v1.1.0` は採用する標準バージョンへ置き換えます。
+対象リポジトリに次のワークフローを追加します。`v2.0.0` は採用する標準バージョンへ置き換えます。
 
 ```yaml
 name: Documentation check
@@ -65,7 +65,7 @@ permissions:
 
 jobs:
   documentation:
-    uses: AWR0916/ai-development-standard/.github/workflows/reusable-documentation-check.yml@v1.1.0
+    uses: AWR0916/ai-development-standard/.github/workflows/reusable-documentation-check.yml@v2.0.0
 ```
 
 対象リポジトリに markdownlint の設定ファイル（`.markdownlint-cli2.*` または `.markdownlint.*`）がない場合は、本標準と同じ設定で検査します。独自の設定を使う場合は、設定ファイルを置くか、`with:` で `use-standard-config: false` を指定します。
