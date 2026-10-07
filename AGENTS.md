@@ -14,6 +14,7 @@ This repository contains organization-independent AI development standards, temp
 ## Changes
 
 - Update related templates and checklists when a standard changes.
+- Give each testable rule a rule ID and level (`必須` or `推奨`) as defined in `docs/versioning-policy.md`; never reuse retired IDs.
 - Keep `VERSION`, `CHANGELOG.md`, and release tags consistent with the versioning policy.
 - Record exceptions with the target rule, reason, impact, mitigation and how it is verified, approver, expiry date, and re-evaluation date.
 - Run documentation checks before committing.
