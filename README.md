@@ -29,6 +29,7 @@ AIを利用するソフトウェア開発で、品質、安全性、説明可能
 - [レビュー標準](docs/review-standard.md)
 - [リスク区分と役割](docs/risk-and-roles.md)
 - [リリース標準](docs/release-standard.md)
+- [運用標準](docs/operations-standard.md)
 - [バージョニング方針](docs/versioning-policy.md)
 - [用語集](docs/glossary.md)
 
