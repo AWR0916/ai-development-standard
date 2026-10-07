@@ -12,11 +12,12 @@
 
 - **ADP-01（必須）** 導入時は、次の手順を実施する。
   1. 採用するリリースタグを決定する。
-  2. 対象リポジトリの `AGENTS.md` に標準のURLと採用バージョンを記載する。
-  3. プロジェクト固有規則と標準の競合を確認する。
-  4. [適合確認チェックリスト](checklists/adoption-checklist.md)を実施する。
-  5. 必要なテンプレートと自動検査を導入する。
-  6. 導入結果をレビューし、変更として承認する。
+  2. [適用プロファイル](docs/profiles.md)を判定する（PRF-01）。
+  3. 対象リポジトリの `AGENTS.md` に標準のURLと採用バージョンを記載する。
+  4. プロジェクト固有規則と標準の競合を確認する。
+  5. [適合確認チェックリスト](checklists/adoption-checklist.md)を実施する。
+  6. 必要なテンプレートと自動検査を導入する。
+  7. 導入結果をレビューし、変更として承認する。
 - **ADP-02（推奨）** 初回導入では、最新の安定版を採用する。
 
 `AGENTS.md` は [導入テンプレート](templates/adoption/AGENTS.md)からコピーできます。Pull Request テンプレートは [導入用Pull Requestテンプレート](templates/adoption/pull_request_template.md) を `.github/pull_request_template.md` へコピーできます。
