@@ -33,6 +33,7 @@
 | AIU | [AI利用標準](ai-usage-standard.md) |
 | REV | [レビュー標準](review-standard.md) |
 | REL | [リリース標準](release-standard.md) |
+| OPS | [運用標準](operations-standard.md) |
 | RSK | [リスク区分と役割](risk-and-roles.md) のリスク区分と重大度 |
 | ROL | [リスク区分と役割](risk-and-roles.md) の役割 |
 | VER | バージョニング方針（本文書） |
