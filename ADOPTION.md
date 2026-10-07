@@ -68,6 +68,8 @@ jobs:
     uses: AWR0916/ai-development-standard/.github/workflows/reusable-documentation-check.yml@v1.1.0
 ```
 
+対象リポジトリに markdownlint の設定ファイル（`.markdownlint-cli2.*` または `.markdownlint.*`）がない場合は、本標準と同じ設定で検査します。独自の設定を使う場合は、設定ファイルを置くか、`with:` で `use-standard-config: false` を指定します。
+
 再利用可能ワークフローを使うには、呼出元リポジトリからAI開発標準リポジトリを参照できる必要があります。
 
 ## 定期確認

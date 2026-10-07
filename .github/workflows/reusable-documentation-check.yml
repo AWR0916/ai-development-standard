@@ -13,6 +13,11 @@ on:
         required: false
         type: string
         default: '--no-progress --offline "**/*.md"'
+      use-standard-config:
+        description: Use the standard markdownlint config when the caller has none
+        required: false
+        type: boolean
+        default: true
 
 permissions:
   contents: read
@@ -25,6 +30,22 @@ jobs:
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
+
+      - name: Provide standard Markdown config
+        if: ${{ inputs.use-standard-config }}
+        shell: bash
+        run: |
+          shopt -s nullglob
+          existing=(.markdownlint-cli2.* .markdownlint.*)
+          if [ ${#existing[@]} -eq 0 ]; then
+            printf '%s\n' \
+              'config:' \
+              '  MD013: false' \
+              '  MD024:' \
+              '    siblings_only: true' \
+              '  MD060: false' > .markdownlint-cli2.yaml
+            echo "Using the standard markdownlint config."
+          fi
 
       - name: Check Markdown style
         uses: DavidAnson/markdownlint-cli2-action@21c1be1b93ad9ed58fa840aacc3f279cde2a72ff # v24.2.0
