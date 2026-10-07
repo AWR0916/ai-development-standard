@@ -36,8 +36,20 @@ AIを利用するソフトウェア開発で、品質、安全性、説明可能
 
 - [導入ガイド](ADOPTION.md)
 - [AGENTS.md導入テンプレート](templates/adoption/AGENTS.md)
+- [導入用Pull Requestテンプレート](templates/adoption/pull_request_template.md)
 - [適合確認チェックリスト](checklists/adoption-checklist.md)
 - [再利用可能な文書検査](.github/workflows/reusable-documentation-check.yml)
+
+## テンプレートとチェックリスト
+
+| 工程 | テンプレート | チェックリスト |
+|---|---|---|
+| 要件定義 | [要件定義](templates/requirements-template.md)、[データ分類とAI利用](templates/data-classification-template.md) | — |
+| 設計 | [設計](templates/design-template.md)、[脅威分析](templates/threat-model-template.md)、[ADR](templates/adr-template.md) | [設計レビュー](checklists/design-review-checklist.md)、[セキュリティ](checklists/security-checklist.md) |
+| 実装・レビュー | [追跡表](templates/traceability-matrix-template.md) | [Pull Request](checklists/pull-request-checklist.md)、[AI利用](checklists/ai-usage-checklist.md) |
+| 検証 | [テスト計画](templates/test-plan-template.md) | [テスト](checklists/test-checklist.md) |
+| リリース | — | [リリース](checklists/release-checklist.md) |
+| 導入・例外 | [例外](templates/exception-template.md) | [適合確認](checklists/adoption-checklist.md) |
 
 ## 適用レベル
 
