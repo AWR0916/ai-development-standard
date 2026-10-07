@@ -48,7 +48,7 @@
 
 ## 文書検査の導入
 
-対象リポジトリに次のワークフローを追加します。`v1.0.1` は採用する標準バージョンへ置き換えます。
+対象リポジトリに次のワークフローを追加します。`v1.1.0` は採用する標準バージョンへ置き換えます。
 
 ```yaml
 name: Documentation check
@@ -64,7 +64,7 @@ permissions:
 
 jobs:
   documentation:
-    uses: AWR0916/ai-development-standard/.github/workflows/reusable-documentation-check.yml@v1.0.1
+    uses: AWR0916/ai-development-standard/.github/workflows/reusable-documentation-check.yml@v1.1.0
 ```
 
 再利用可能ワークフローを使うには、呼出元リポジトリからAI開発標準リポジトリを参照できる必要があります。
