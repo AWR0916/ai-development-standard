@@ -2,9 +2,9 @@
 
 ## AI開発標準
 
-本リポジトリの開発は、AI開発標準 `v1.1.0` を基準とします。
+本リポジトリの開発は、AI開発標準 `v2.0.0` を基準とします。
 
-[AI開発標準 v1.1.0](https://github.com/AWR0916/ai-development-standard/tree/v1.1.0)
+[AI開発標準 v2.0.0](https://github.com/AWR0916/ai-development-standard/tree/v2.0.0)
 
 適用プロファイル：<!-- 試作 / 標準 / 高保証 と判定理由を記載してください（PRF-01）。 -->
 
