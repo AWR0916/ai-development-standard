@@ -19,4 +19,4 @@
 - **RQM-09（必須）** 要件変更では、関連する設計、コード、テスト、運用手順への影響を確認する。
 - **RQM-10（必須）** 要件の変更理由と承認結果を残す。
 
-成果物には [要件定義テンプレート](../templates/requirements-template.md) を使用できます。
+成果物には [要件定義テンプレート](../templates/requirements-template.md) を使用できます。データの機密区分には [データ分類とAI利用の対応表](../templates/data-classification-template.md) を使用できます。

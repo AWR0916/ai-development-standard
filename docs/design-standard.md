@@ -19,4 +19,4 @@
 - **DSN-09（必須）** 実装開始前に、要求との対応、障害モード、セキュリティ、運用性を確認する。
 - **DSN-10（必須）** 重大な未決事項は、責任者と期限を付けて管理する。
 
-成果物には [設計テンプレート](../templates/design-template.md) を使用できます。
+成果物には [設計テンプレート](../templates/design-template.md) を使用できます。設計レビューでは [設計レビューチェックリスト](../checklists/design-review-checklist.md) を使用できます。

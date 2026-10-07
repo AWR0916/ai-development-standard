@@ -19,7 +19,7 @@
   6. 導入結果をレビューし、変更として承認する。
 - **ADP-02（推奨）** 初回導入では、最新の安定版を採用する。
 
-`AGENTS.md` は [導入テンプレート](templates/adoption/AGENTS.md)からコピーできます。
+`AGENTS.md` は [導入テンプレート](templates/adoption/AGENTS.md)からコピーできます。Pull Request テンプレートは [導入用Pull Requestテンプレート](templates/adoption/pull_request_template.md) を `.github/pull_request_template.md` へコピーできます。
 
 ## バージョンの固定
 
@@ -42,6 +42,8 @@
   - 承認者
   - 有効期限
   - 再評価日
+例外の記録には [例外テンプレート](templates/exception-template.md) を使用できます。
+
 - **ADP-06（必須）** 期限切れの例外は自動更新せず、再評価する。
 
 ## 文書検査の導入
